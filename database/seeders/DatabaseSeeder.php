@@ -15,11 +15,11 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         \App\Models\Setting::create([
-            'about_title' => 'Software Engineer',
-            'about_description' => 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
-            'fb_url' => 'https://www.facebook.com/yasser.elgammal/',
-            'github_url' => 'https://github.com/YasserElgammal',
-            'linkedin_url' => 'https://www.linkedin.com/in/elgammal/',
+            'about_title' => 'Laravel Developer',
+            'about_description' => 'Results-driven software developer with over 1 year of specialized experience in PHP and Laravel framework development. Proficient in creating efficient, scalable web applications with clean, maintainable code. Skilled in RESTful API development, database .',
+            'fb_url' => '#li',
+            'github_url' => 'https://github.com/ayshafa',
+            'linkedin_url' => 'https://www.linkedin.com/in/ayisha-kk-2a3913261/',
             'freelance_url' => '#li',
             'cv_url' => '#cv',
             'video_url' => '#video'
@@ -27,8 +27,8 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(1)->create();
 
         \App\Models\User::factory()->create([
-            'name' => 'Profile User',
-            'email' => 'test@example.com',
+            'name' => 'Ayisha kk',
+            'email' => 'ayishakk516@gmail.com',
         ]);
     }
 }
